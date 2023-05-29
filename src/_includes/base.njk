@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="{{ pageID }}">
+
+    <header id="page-top-nav">
+        <div id="logo">Denver Arts Organized</div>
+        <nav class="main-nav">
+            <ul>
+                <li>Exhibitions</li>
+                <li>News</li>
+                <li>Venues</li>
+                <li>Calendar</li>
+            </ul>
+            <ul>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="page-wrapper">
+        
+        {# {% include "_includes/test.njk" %} #}
+        
+        {% include "partials/nav.html" %}
+
+        <main id="masthead">
+            <div class="description_wrapper">
+            <header>
+                    <h1>Denver Art Museum Announces New Curators</h1>
+                    <div class="tags description_tags">
+                        <div data-taxonomy="news-source">
+                            <i class="fa-regular fa-newspaper"></i><a href="#">Westword</a>
+                        </div>
+                        <div data-taxonomy="venue">
+                            <i class="fa-solid fa-location-dot"></i><a href="#">Denver Art Museum</a>
+                        </div>
+                        <div data-taxonomy="news-tag">
+                            <i class="fa-solid fa-pencil"></i><a href="#">Informative</a>
+                        </div>
+                    </div>
+            </header>
+            <div class="description_summary">
+            <p><strong>Summary:</strong> New curators have been announced for the Denver Art Museum for western
+                American art, modern and contemporary art, and contemporary Latin American art.</p>
+            </div>
+            <a class="direct-link" href="https://www.westword.com/arts/denver-art-museum-announces-new-curators-13622975"
+                target="_blank" rel="noopener noreferrer">Link To Article<i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </main>
+
+<aside id="recommended">
+
+        <section data-post_type="news-article" data-taxonomy="news-source">
+            <header class="recent-title">
+                <h2>Recent "news articles" from: <span>Westword</span></h2>
+                <a href="#" target="_blank" rel="noopener noreferrer">See All</a>
+            </header>
+
+            <div class="article-container">
+                <article>
+                    <h3><a href="#" target="_blank" rel="noopener noreferrer">Most Denver Museums Will Close Under
+                            Level Red COVID Guidelines</a></h3>
+                    <div class="tags recommended_tags">
+                        <div data-taxonomy="news-source">
+                            <i class="fa-regular fa-newspaper"></i>
+                            <a href="#">Westword</a>
+                        </div>
+                        <div data-taxonomy="venue">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#">Denver Art Museum</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article>
+                    <h3><a href="#" target="_blank" rel="noopener noreferrer">Denver Art Museum Announces New
+                            Curators</a></h3>
+                    <div class="tags recommended_tags">
+                        <div data-taxonomy="news-source">
+                            <i class="fa-regular fa-newspaper"></i>
+                            <a href="#">Westword</a>
+                        </div>
+                        <div data-taxonomy="venue">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#">931 Gallery</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article>
+                    <h3><a href="#" target="_blank" rel="noopener noreferrer">The Denver Art Museum Elevates Diverse
+                            Voices With Stunning Spring Lineup</a></h3>
+                    <div class="tags recommended_tags">
+                        <div data-taxonomy="news-source">
+                            <i class="fa-regular fa-newspaper"></i>
+                            <a href="#">Westword</a>
+                        </div>
+                        <div data-taxonomy="venue">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#">Denver Botanic Gardens Chatfield Farms</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <section data-post_type="news-article" data-taxonomy="venue">
+            <header class="recent-title">
+                <h2>Recent "news articles" about: <span>Denver Art Museum</span></h2>
+                <a href="#" target="_blank" rel="noopener noreferrer">See All</a>
+            </header>
+
+            <div class="article-container">
+                <article>
+                    <h3><a href="#" target="_blank" rel="noopener noreferrer">Most Denver Museums Will Close Under
+                            Level Red COVID Guidelines</a></h3>
+                    <div class="tags recommended_tags">
+                        <div data-taxonomy="news-source">
+                            <i class="fa-regular fa-newspaper"></i>
+                            <a href="#">Westword</a>
+                        </div>
+                        <div data-taxonomy="venue">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#">Denver Art Museum</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article>
+                    <h3><a href="https://www.denverpost.com/2022/05/16/conde-nast-hot-list-denver-art-museum/" target="_blank" rel="noopener noreferrer">Denver Art Museum named one of the world’s best “new” museums</a></h3>
+                    <div class="tags recommended_tags">
+                        <div data-taxonomy="news-source">
+                            <i class="fa-regular fa-newspaper"></i>
+                            <a href="#">Denver Post</a>
+                        </div>
+                        <div data-taxonomy="venue">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#">Denver Art Museum</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+    
+
+    </aside>
+
+    </div>
+    <footer id="page-bottom-footer">Denver Arts Organized • All Rights Reserved &copy;2023</footer>
+
+</body>
+</html>
