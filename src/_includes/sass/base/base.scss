@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--bg);
+}
+
+* {
+    color: var(--text);
+}
+
+a:not(:hover) {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: currentColor wavy underline;
+}
+
+#page-wrapper {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#page-top-nav,
+#page-wrapper,
+#page-bottom-footer {
+    width: calc(100% - 2rem);
+    max-width: calc(1200px - 4rem);
+    margin-inline: auto;
+}
+
+#page-bottom-footer {    
+    padding-block: 2em;
+    text-align: center;
+}

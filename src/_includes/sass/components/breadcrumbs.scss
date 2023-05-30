@@ -1,0 +1,27 @@
+.breadcrumbs {
+    // background-color: var(--breadcrumb-bg);
+    font-size: 0.8em;
+    border-top: 1px solid var(--text);
+    padding-block: 1em;
+    // border-radius: 0.5em;
+    .home {
+        margin-left: 1.5em;
+        font-weight: 600;
+        color: var(--breadcrumb-text);
+    }
+    select {
+        background-color: var(--breadcrumb-bg);
+        // idk why this won't take a css variable
+        // --breadcrumb-bg: #00000015;
+        background-color: #00000015;
+        color: var(--breadcrumb-text);
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.334em;
+        width: auto;
+    }
+    i {
+        margin-inline: 0.5em;
+        color: var(--breadcrumb-text);
+    }
+}

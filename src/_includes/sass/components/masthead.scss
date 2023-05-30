@@ -1,0 +1,72 @@
+    main#masthead {
+
+    .description_wrapper {
+        padding-top: 5rem;
+        margin-inline: auto;
+        max-width: 600px;
+    }
+
+    h1 {
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+
+    .description_tags {
+        border-bottom: 1px solid var(--text);
+        border-top: 1px solid var(--text);
+        font-size: 0.8em;
+        line-height: 2;
+        margin-block: 1rem;
+        padding: 0.5em;
+        text-align: center;
+
+        div {
+            display: inline-block;
+            margin-inline: 0.5rem;
+        }
+
+        a {
+            display: inline-block;
+            // margin-inline: 0.5rem;
+        }
+
+        i {
+            margin-right: 0.5em;
+        }
+    }
+
+    .description_fields {
+        i {
+            width: 1.667em;
+        }
+        p + p {
+            margin-top: 1em;
+        }
+    }
+
+    a.direct-link {
+        border: 1px solid var(--text);
+        // background-color: #00000020;
+        border-radius: 0.5rem;
+        display: block;
+        font-weight: 500;
+        margin-inline: auto;
+        margin-top: 1.5rem;
+        padding: 0.5em 1em;
+        width: fit-content;
+        &:hover {
+            background-color: var(--text);
+            color: var(--bg);
+            text-decoration: none;
+            i {
+                color: var(--bg);
+            }
+        }
+
+        i {
+            font-size: 0.8em;
+            margin-left: 0.5em;
+        }
+    }
+
+}

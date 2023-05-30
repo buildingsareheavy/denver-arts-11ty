@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("./src/style.css");
+    eleventyConfig.addPassthroughCopy("styles.css");
+   
     return {
         dir: {
             input: "src",
